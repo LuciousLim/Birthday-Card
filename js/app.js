@@ -19,7 +19,7 @@
             }
             window.ontouchend = function () {
                 setTimeout(function () {
-                    if (pageNow == points.length && confettisAllow) {
+                    if (pageNow == points.length&& confettisAllow) {
                         confettis();
                         confettisAllow = false;
                         setTimeout(function () {
